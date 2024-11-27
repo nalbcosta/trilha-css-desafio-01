@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+/**{
     margin: 0;
     padding: 0;
     border: 0;
     outline: none;
     box-sizing: border-box;
-}
+}*/
 
 body{
     font-size: 100%;
@@ -14,10 +14,8 @@ body{
 }
 
 .banner{
-    display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 50px;
     background-image: url(./assets/images/banner.png);
     color: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(51,168,219,1) 50%, rgba(0,0,0,1) 100%);
     background-position: center;
@@ -26,4 +24,50 @@ body{
     width: 100vw;
     height: 605px;
     border-bottom: solid 1px rgb(51, 168, 216);
+}
+
+.banner-content{
+    display: inline-block;
+    width: 510px;
+    height: 393px;
+    top: 56px;
+    left: 465px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+
+.banner h1{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(180deg, #33A8DB 100%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.48px;
+    text-align: center;
+    line-break: normal;
+}
+
+.logo{
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    text-align: center;
+    width: 268px;
+    height: 268px;
+}
+
+.logo img{
+    width: 248px;
+    height: 214px;
+    top: 27px;
+    left: 131px;
 }
